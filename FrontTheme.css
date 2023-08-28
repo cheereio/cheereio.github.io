@@ -201,8 +201,8 @@ td {
 }
 
 .body {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 20vw;
+	margin-right: 10vw;
 	margin-top: 60px;
 	width:70vw;
 	word-wrap: break-word;
@@ -298,6 +298,19 @@ td {
 	width: 15vw;
 	height: auto;
 }
+
+.floatinglogo {
+	width: 15vw;
+	height: auto;
+	position: fixed;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+	margin-bottom:20px;
+	margin-left: 20px;
+
+}
+
 
 .linkimages {
     	display: inline-block;

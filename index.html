@@ -14,9 +14,23 @@
 
 <body>
 	<!--<h2 class="center"><a href="http://drewpendergrass.com">Drew Pendergrass, <?php echo $description[$rand]; ?></a></h2>-->
-	<img class="fitsmall centerimg" src="transparent_cheereio_logo.png" alt="CHEEREIO logo, with the CHEEREIO name going through a tilted yellow circle with grid lines.">
+	<img class="floatinglogo" src="transparent_cheereio_logo.png" alt="CHEEREIO logo, with the CHEEREIO name going through a tilted yellow circle with grid lines.">
 <div class="body">
-		<p>Test test test</p>
+<p>Welcome to the CHEEREIO website. The GEOS-Chem CHEmistry and Emissions REanalysis Interface with Observations (CHEEREIO) is a tool that allows scientists to use observations of pollutants or gases in the atmosphere, such as from satellites or surface stations, to update supercomputer models that simulate the Earth. Other scientists have assembled estimates of emissions of various pollutants from around the world, but our emissions estimates are very uncertain. CHEEREIO uses a model called GEOS-Chem to simulate what the atmosphere would look like if those emissions estimates were correct, and then compares those estimates to the real atmosphere as observed by satellites or equipment on the Earth's surface. CHEEREIO uses the difference between the model simulation and the real world to update our maps of emissions.</p>
+
+<p>More formally, CHEEREIO is a set of Python and shell scripts that support data assimilation and emissions inversions for arbitrary runs of the GEOS-Chem chemical transport model via an ensemble approach (i.e. without the model adjoint).</p>
+
+<p>This site provides a manual for the installation, use, and modification of CHEEREIO for a variety of scientific applications. You can download CHEEREIO from the <a href="https://github.com/drewpendergrass/CHEEREIO/">Github page</a> and install by following the instructions in the <a href="https://cheereio.readthedocs.io/">documentation.</a></p>
+
+<p>CHEEREIO follows four design principles:</p>
+
+<ol>
+	<li> <b>Easy to customize</b>: Assimilate anything, in any GEOS-Chem configuration or simulation.</li>
+	<li> <b>Easy to maintain</b>: Science automatically aligned with latest model version.</li>
+	<li> <b>Easy to deploy</b>: One configuration file controls installation and settings.</li>
+	<li> <b>Easy to link observations</b>: Object-oriented observation operator implementation in Python allows the user to rapidly add new kinds of data with minimal programming required.</li>
+</ol>
+
 </div>
 <div class="line"></div>
 <p class="footer"></p>
